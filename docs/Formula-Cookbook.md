@@ -174,7 +174,7 @@ description can be overridden using the normal option syntax (in this case, the 
     depends_on "foo" => :optional # Generated description would otherwise be "Build with foo support"
     ```
 * Some [`Requirement`](https://rubydoc.brew.sh/Requirement)s can also take a string specifying their minimum version that the formula depends on.
-
+Q
 **Note:** [`option`](https://rubydoc.brew.sh/Formula#option-class_method)s are not allowed in Homebrew/homebrew-core as they are not tested by CI.
 
 ### Specifying conflicts with other formulae
